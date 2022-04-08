@@ -5,19 +5,5 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 
 
 
-int func(int a, int b) {
-  int x=3 , y = 4, z;
-  z = (a - b) * x / y;
-  return z;
-}
- 
-void caller() {
-  int m = 1, n = 2, k;
-  k = func(m, n);
-}
- 
-int main() {
-  caller();
-  return 0;
-}
+
 
